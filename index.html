@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Aqua Talk</title>
+    <title>Welcome to AquaTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,15 +24,22 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Aqua Talk</h1>
+      <h1 class="welcome-header__title">Welcome to AquaTalk</h1>
       <p class="welcome-header__text">
         If you have a Aqua Account, log in with your email or phone number.
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input required name="username" type="email" placeholder="Email" />
+      <input
+        required
+        name="password"
+        type="password"
+        placeholder="Password"
+        maxlength="16"
+        minlength="8"
+      />
       <input type="submit" value="Log in" />
       <a href="#">Find Aqua Account or Password</a>
     </form>
