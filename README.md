@@ -1,3 +1,1 @@
-# Kakao Clone 2022 Update
-
-HTML & CSS Study!
+# HTML & CSS Study with Kakao Clone
