@@ -1,1 +1,1 @@
-# HTML & CSS Study with Kakao Clone
+# HTML & CSS study with Kakao Clone
