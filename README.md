@@ -1,3 +1,3 @@
-# Learn HTML & CSS with Kakao Clone
+# Kakao Clone using HTML & CSS
 
 title: Aqua Talk
